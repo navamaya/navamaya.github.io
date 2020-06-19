@@ -1,0 +1,94 @@
+body {
+  background-image: linear-gradient(#91C4F2, #8C7AA9);
+}
+
+.container-fluid {
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+
+.navbar {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border: 0;
+  border-radius: 0;
+  margin-bottom: 0;
+  font-size: 12px;
+  letter-spacing: 5px;
+}
+
+.nav-item {
+  text-align: right;
+}
+
+.navbar-nav li a:hover {
+  color: #8c7aa9 !important;
+}
+
+.container-spacing {
+  padding-top: 5%;
+}
+
+.footer-padding {
+  padding-bottom: 60px;
+}
+
+.footer {
+  position: absolute;
+  text-align: center;
+  bottom: 0;
+  width: 100%;
+  height: 60px;
+  background-color: #B388EB;
+}
+
+.footer p {
+  margin-top: 25px;
+  font-size: 12px;
+  color: #CFD4C5;
+}
+
+.composeHead {
+  text-align: center;
+}
+
+form {
+  text-align: left;
+}
+
+.cardWhole {
+  padding: 3% 10% 0% 10%;
+}
+
+.icons {
+  text-align: center;
+  padding: 5% 5%;
+}
+
+.social-icon {
+  padding: 5% 5%;
+}
+
+textarea {
+  width: 100%;
+  height: 150px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  resize: auto;
+}
+
+button {
+  background-color: #91c4f2;
+  border: none;
+  color: white;
+  padding: 10px 24px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 10px;
+  float: right;
+}

@@ -1,0 +1,25 @@
+<%- include("partials/header"); -%>
+
+<div class="container">
+    <h1 class="composeHead">Compose</h1>
+    <div class="card-deck">
+    <div class="card mb-4 shadow-sm">
+        <div class="card-header">
+            <h3>New Entry</h3>
+        </div>
+        <div class="card-body">
+            <form action="/compose" method="post">
+  <div class="form-group">
+    <label for="input">Title</label>
+    <input class="form-control" type="text" name="titleContent" autocomplete="off">
+    <label for="input">Content Post</label>
+    <textarea class="form-control" name="contentTxt" rows="8" cols="80"></textarea>
+  </div>
+  <button type="submit" name="button">Publish</button>
+</form>
+        </div>
+    </div>
+  </div>
+</div>
+
+<%- include("partials/footer"); -%>
